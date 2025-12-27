@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="prose">
+    <h1>{{ .Title }}</h1>
+    {{ range (.Pages.ByParam "year").Reverse }}
+    <article>
+      <h3>{{ .Title }}</h3>
+      <p>
+      {{ .Params.authors }}<br>
+      <em>{{ .Params.venue }}</em>, {{ .Params.year }}
+      </p>
+      {{ with .Params.pdf }}
+      <a href="{{ . }}">PDF</a>
+      {{ end }}
+    </article>
+    {{ end }}
+  </section>
+{{ end }}

@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>Tags</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   
   <link rel="stylesheet" href="/css/main.min.css">
+
 </head>
 
 <body>
@@ -15,74 +16,62 @@
   <nav class="menu">
     <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
 
-    <label for="menu-toggle" class="menu-toggle" aria-label="Open menu">
-    <span></span>
-    <span></span>
-    <span></span>
-    </label>
-    
-    <a href="/" class="site-title">Andreas Oslandsbotn</a>
-    
-    <ul class="menu-items">
-      
-      <li>
-      <a href="/#about" class="">
-        About
-      </a>
-      </li>
-      
-      <li>
-      <a href="/blog/" class="">
-        Blog
-      </a>
-      </li>
-      
-    </ul>
+    <div class="menu-bar">
+      <label for="menu-toggle" class="menu-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
 
+      <a href="/" class="site-title">Andreas Oslandsbotn</a>
+    </div>
+
+    <div class="menu-surface">
+      <ul class="menu-items">
+        
+          <li>
+            <a
+              href="/#top"
+              class=""
+            >
+              Home
+            </a>
+          </li>
+        
+          <li>
+            <a
+              href="/#publications"
+              class=""
+            >
+              Publications
+            </a>
+          </li>
+        
+          <li>
+            <a
+              href="/#contact"
+              class=""
+            >
+              Contact
+            </a>
+          </li>
+        
+          <li>
+            <a
+              href="/blog/"
+              class=""
+            >
+              Blog
+            </a>
+          </li>
+        
+      </ul>
+    </div>
   </nav>
 </header>
 
 
   
   <main class="content">
-    
-
-<div class="profile">
-  <img src="/images/profilepicture.svg" alt="Profile Picture" class="profile-pic">
-  <div class="about">
-    <div class="name">Andreas Oslandsbotn</div>
-    <div class="position">Machine Learning Engineer</div>
-    <div class="company">
-      <a href="https://optoscale.no/?lang=en" target="_blank" rel="noopener">
-        OptoScale
-      </a>
-    </div>
-  </div>
-</div>
-
-
-
-<section class="about-text">
-  <h1>Professional Background</h1>
-  <p>
-  I am a Machine Learning Researcher at OptoScale working on machine vision for real-world production environments. 
-  </p>
-  <p>
-  I received my PhD in Computer Science in 2024 from the University of Oslo, as part of a joint collaboration with UC San Diego, under supervision of
-<a href="https://sites.google.com/ucsd.edu/alexandercloninger/home" target="_blank" rel="noopener">Prof. Alexander Cloninger</a> and
-<a href="https://www.simula.no/people/nick" target="_blank" rel="noopener">Dr. Nick Forsch</a>. As visiting researcher at UC San Diego I collaborated closely with
-<a href="https://cseweb.ucsd.edu/~yfreund/?_gl=1*zv1lqz*_gcl_au*NTM2OTk3MTEuMTc2Njc2Mjc0Nw..*_ga*MzIxNDIzNzY4LjE3NjY3NjI3NDU.*_ga_PWJGRGMV0T*czE3NjY3NjI3NDckbzEkZzAkdDE3NjY3NjI3NDckajYwJGwwJGgw" target="_blank" rel="noopener">Prof. Yoav Freund</a>. Prior to this, I also spent time at CERN in the
-<a href="https://mpe.web.cern.ch/home" target="_blank" rel="noopener">TE-MPE department</a>, working under the supervision of Dr. Daniel Wollman.
-</p>
- 
-
-
-  
-<section class=about-text>
-  <h1>Research Interests</h1>
-I am interested in how high-dimensional representations, such as those learned by DNNs, organize around low-dimensional geometric structure. My work aims at capturing and utilizing this structure, with applications to downstream tasks such as clustering and vector search.
-
-
+     
 
 <h1>Tags</h1>
 
@@ -90,6 +79,10 @@ I am interested in how high-dimensional representations, such as those learned b
   
 
   </main>
+  
+  
+  <script src="/js/menu.min.js"></script>
+
 
 </body>
 </html>

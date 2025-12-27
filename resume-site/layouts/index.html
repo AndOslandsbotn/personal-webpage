@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <section class="home-layout"> 
+    {{ partial "profile.html" . }}
+
+    <div class="side-content">
+    {{ partial "background.html" . }}
+    {{ partial "interests.html" . }}
+    </div>
+  </section>
+  {{ .Content }}
+
+{{ end }}
+

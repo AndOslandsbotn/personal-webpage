@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {{ $css := resources.Get "css/main.css" | resources.Minify }}
+  
+  {{ $css := (resources.Get "css/main.css") | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
 </head>
 
 <body>
@@ -16,6 +17,10 @@
   <main class="content">
     {{ block "main" . }}{{ end }}
   </main>
+  
+  {{ $js := (resources.Get "js/menu.js") | resources.Minify }}
+  <script src="{{ $js.RelPermalink }}"></script>
+
 
 </body>
 </html>

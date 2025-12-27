@@ -7,14 +7,24 @@ title = 'My New Hugo Site'
     [markup.goldmark.renderer]
       unsafe = true
 
-
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/#about"
+    name = "Home"
+    url = "/#top"
     weight = 1
 
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "Publications"
+    url = "/#publications"
     weight = 2
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/#contact"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 4
+

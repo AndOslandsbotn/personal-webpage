@@ -2,24 +2,28 @@
   <nav class="menu">
     <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
 
-    <label for="menu-toggle" class="menu-toggle" aria-label="Open menu">
-    <span></span>
-    <span></span>
-    <span></span>
-    </label>
-    
-    <a href="/" class="site-title">Andreas Oslandsbotn</a>
-    
-    <ul class="menu-items">
-      {{ range .Site.Menus.main }}
-      <li>
-      <a href="{{ .URL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">
-        {{ .Name }}
-      </a>
-      </li>
-      {{ end }}
-    </ul>
+    <div class="menu-bar">
+      <label for="menu-toggle" class="menu-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
 
+      <a href="/" class="site-title">Andreas Oslandsbotn</a>
+    </div>
+
+    <div class="menu-surface">
+      <ul class="menu-items">
+        {{ range .Site.Menus.main }}
+          <li>
+            <a
+              href="{{ .URL }}"
+              class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}"
+            >
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
   </nav>
 </header>
 
