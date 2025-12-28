@@ -5,7 +5,7 @@
   <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  {{ $css := (resources.Get "css/main.css") | resources.Minify }}
+  {{ $css := (resources.Match "css/*.css") | resources.Concat "css/site.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 </head>
