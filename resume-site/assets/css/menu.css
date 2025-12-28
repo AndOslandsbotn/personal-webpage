@@ -1,0 +1,101 @@
+.menu {
+  position: relative;
+}
+
+.menu-bar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 1.2rem 1.1rem;
+  background: white;
+  z-index: 2;
+}
+
+.menu-surface {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  background: white;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+  transform-origin: top;
+  transform: scaleY(0);
+  opacity: 0;
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+
+  will-change: transform;
+}
+
+.menu-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu-checkbox:checked ~ .menu-surface {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+/* Menu toggle */
+
+.menu-toggle {
+  grid-column: 1;
+  justify-self: start;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 28px;
+  height: 20px;
+  padding: 0.25rem 0.5rem;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #222;
+  border-radius: 2px;
+}
+
+/* Menu items */
+
+.menu-items {
+  list-style: none;
+  margin: 0;
+  padding: 1.2rem 2.5rem;
+}
+
+.menu-items a {
+  display: block;
+  padding: 0.4rem 0;
+  color: #555;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.menu-items a:hover {
+  color: #888;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.menu-items a.active,
+.menu-items a.active:hover {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+

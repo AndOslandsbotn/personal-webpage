@@ -1,0 +1,52 @@
+.profile-pic {
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 2rem auto;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.name {
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  font-weight: 150;
+  color: #1a1a1a;
+  margin-top: -0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.position {
+  font-size: 1.65rem;
+  font-weight: 350;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.company {
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.company a {
+  color: #888;
+}
+
+.company a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.about-text {
+  font-size: 1.7rem;
+  line-height: 1.4;
+  max-width: 65ch;
+}
+

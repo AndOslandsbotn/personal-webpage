@@ -1,0 +1,29 @@
+.home-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.profile {
+  text-align: center;
+}
+
+@media (min-width: 1300px) {
+  .home-layout {
+    grid-template-columns: 320px 1fr;
+    align-items: start;
+  }
+
+  .side-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .profile {
+    text-align: left;
+    position: sticky;
+    top: 6rem;
+  }
+}
+
