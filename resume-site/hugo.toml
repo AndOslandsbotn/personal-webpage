@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://AndOslandsbotn.github.io/andreasoslandsbotn/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Personal Webpage'
 
 [markup]
   [markup.goldmark]

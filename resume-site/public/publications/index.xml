@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on My New Hugo Site</title>
-    <link>http://localhost:1313/publications/</link>
-    <description>Recent content in Publications on My New Hugo Site</description>
+    <title>Publications on Personal Webpage</title>
+    <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/</link>
+    <description>Recent content in Publications on Personal Webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effective resistance in metric spaces</title>
-      <link>http://localhost:1313/publications/erms-2023/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/erms-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/erms-2023/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/erms-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of 440 GeV Proton beams on Superconductors in a Cryogenic Environment</title>
-      <link>http://localhost:1313/publications/beam-impact-2019/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/beam-impact-2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/beam-impact-2019/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/beam-impact-2019/</guid>
       <description></description>
     </item>
     <item>
       <title>Improving inversion of model parameters from action potential recordings with kernel methods</title>
-      <link>http://localhost:1313/publications/ap-inversion-2023/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/ap-inversion-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/ap-inversion-2023/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/ap-inversion-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Random walks, conductance, and resistance for the connection graph Laplacian</title>
-      <link>http://localhost:1313/publications/cgraphlp-2024/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/cgraphlp-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/cgraphlp-2024/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/cgraphlp-2024/</guid>
       <description></description>
     </item>
     <item>
       <title>StreaMRAK - Streaming Multi-Resolution Adaptive Kernel Algorithm</title>
-      <link>http://localhost:1313/publications/streamrak-2022/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/streamrak-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/streamrak-2022/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/streamrak-2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Structure from Voltage</title>
-      <link>http://localhost:1313/publications/sfv-2026/</link>
+      <link>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/sfv-2026/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/sfv-2026/</guid>
+      <guid>https://AndOslandsbotn.github.io/andreasoslandsbotn/publications/sfv-2026/</guid>
       <description>&lt;p&gt;This is a test&lt;/p&gt;</description>
     </item>
   </channel>
