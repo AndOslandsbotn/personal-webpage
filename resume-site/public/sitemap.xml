@@ -4,15 +4,25 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/sfv-2026/</loc>
-  </url><url>
     <loc>http://localhost:1313/blog/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/education/</loc>
   </url><url>
+    <loc>http://localhost:1313/publications/erms-2023/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/beam-impact-2019/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/ap-inversion-2023/</loc>
+  </url><url>
     <loc>http://localhost:1313/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/cgraphlp-2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/streamrak-2022/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/sfv-2026/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
