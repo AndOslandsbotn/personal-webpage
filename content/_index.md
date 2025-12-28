@@ -1,2 +1,3 @@
 ---
+profilepic: profilepicture.svg
 ---

@@ -1,5 +1,12 @@
 <div class="profile" id="top">
-  <img src="{{ "/images/profilepicture.svg" | relURL }}" alt="Profile Picture" class="profile-pic">
+  {{ with .Resources.Get .Params.profilepic }}
+    <img
+      class="profile-pic"
+      src="{{ .RelPermalink }}"
+      alt="Profile picture"
+    >
+  {{ end }}
+
   <div class="about">
     <div class="name">Andreas Oslandsbotn</div>
     <div class="position">Machine Learning Engineer</div>
