@@ -1,6 +1,7 @@
 baseURL = 'https://AndOslandsbotn.github.io/andreasoslandsbotn/'
 languageCode = 'en-us'
 title = 'Personal Webpage'
+publishDir = 'docs'
 
 [markup]
   [markup.goldmark]
