@@ -1,13 +1,23 @@
 {{ define "main" }}
   <section class="home-layout"> 
+    
     {{ partial "profile.html" . }}
 
-    <div class="side-content">
-    {{ partial "background.html" . }}
-    {{ partial "interests.html" . }}
-    </div>
+    <section class="home-about">
+      {{ partial "background.html" . }}
+        <div class="about-meta">
+          {{ partial "interests.html" . }}
+          {{ partial "education.html" . }}
+        </div>
+    </section>
 
-    {{ partial "home-publications.html" . }}
+    <section class="home-publications">
+      {{ partial "home-publications.html" . }}
+    </section>
+
+    <section class="home-contact">
+      {{ partial "home-contact.html" . }}
+    </section>
   </section>
   {{ .Content }}
 

@@ -1,6 +1,9 @@
 .content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: clamp(2.5rem, 4vw, 6rem);
+  padding: clamp(4.5rem, 10vw, 5rem) clamp(3.5rem, 4vw, 12rem);
 }
+
+
+
 

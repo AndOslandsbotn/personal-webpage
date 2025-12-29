@@ -1,0 +1,19 @@
+.about-text {
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
+  line-height: 1.4;
+  max-width: 85ch;
+}
+
+.interests {
+  text-align: left;
+}
+
+.education {
+    text-align: left;
+}
+
+.about-meta {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+}
+

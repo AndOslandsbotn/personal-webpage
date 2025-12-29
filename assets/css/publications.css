@@ -4,22 +4,21 @@
   gap: 3rem;
   margin-right: auto;
   margin-bottom: 2.5rem;
-  max-width: 95ch;
+  margin-top: 2.5rem;
+  max-width 95ch;
 }
 
 .publication {
   display: grid;
   grid-template-columns: 1fr 320px;
   gap: 2rem;
-  align-items: start;;
+  align-items: start;
 }
+
 
 @media (min-width: 900px) {
   .publication {
     grid-template-columns: 1fr 220px;
-  }
-  .publications {
-    grid-column: 2 / -1;
   }
 }
 
