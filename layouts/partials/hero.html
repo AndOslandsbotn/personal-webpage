@@ -1,5 +1,5 @@
-<div class="profile" id="top">
-  {{ with .Resources.Get .Params.profilepic }}
+<div class="hero {{ .modifier }}">
+  {{ with .context.Resources.Get .context.Params.profilepic }}
     <img
       class="profile-pic"
       src="{{ .RelPermalink }}"

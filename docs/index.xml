@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal Webpage</title>
-    <link>https://andoslandsbotn.github.io/andreasoslandsbotn/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Personal Webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://andoslandsbotn.github.io/andreasoslandsbotn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/education/</link>
+      <link>http://localhost:1313/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/education/</guid>
+      <guid>http://localhost:1313/education/</guid>
       <description>&lt;p&gt;Education blabla&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;PhD in Mathematics&lt;/li&gt;&#xA;&lt;li&gt;Machine Learning &amp;amp; Computer Vision&lt;/li&gt;&#xA;&lt;li&gt;Applied research in aquaculture systems&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Effective resistance in metric spaces</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/erms-2023/</link>
+      <link>http://localhost:1313/publications/erms-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/erms-2023/</guid>
+      <guid>http://localhost:1313/publications/erms-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of 440 GeV Proton beams on Superconductors in a Cryogenic Environment</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/beam-impact-2019/</link>
+      <link>http://localhost:1313/publications/beam-impact-2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/beam-impact-2019/</guid>
+      <guid>http://localhost:1313/publications/beam-impact-2019/</guid>
       <description></description>
     </item>
     <item>
       <title>Improving inversion of model parameters from action potential recordings with kernel methods</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/ap-inversion-2023/</link>
+      <link>http://localhost:1313/publications/ap-inversion-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/ap-inversion-2023/</guid>
+      <guid>http://localhost:1313/publications/ap-inversion-2023/</guid>
       <description></description>
     </item>
     <item>
       <title>Random walks, conductance, and resistance for the connection graph Laplacian</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/cgraphlp-2024/</link>
+      <link>http://localhost:1313/publications/cgraphlp-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/cgraphlp-2024/</guid>
+      <guid>http://localhost:1313/publications/cgraphlp-2024/</guid>
       <description></description>
     </item>
     <item>
       <title>StreaMRAK - Streaming Multi-Resolution Adaptive Kernel Algorithm</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/streamrak-2022/</link>
+      <link>http://localhost:1313/publications/streamrak-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/streamrak-2022/</guid>
+      <guid>http://localhost:1313/publications/streamrak-2022/</guid>
       <description></description>
     </item>
     <item>
       <title>Structure from Voltage</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/sfv-2026/</link>
+      <link>http://localhost:1313/publications/sfv-2026/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/sfv-2026/</guid>
+      <guid>http://localhost:1313/publications/sfv-2026/</guid>
       <description>&lt;p&gt;This is a test&lt;/p&gt;</description>
     </item>
   </channel>

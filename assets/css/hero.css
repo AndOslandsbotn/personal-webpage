@@ -1,0 +1,65 @@
+.hero {
+  --hero-gap: 2rem;
+  --hero-avatar: 280px;
+  --hero-name-size: clamp(1.5rem, 3.1vw, 2.0rem);
+  --hero-role-size: clamp(1.3rem, 2.2vw, 1.5rem);
+  --hero-company-size: clamp(1.3rem, 2.2vw, 1.5rem);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--hero-gap);
+}
+
+.hero--sidebar {
+  display: none;
+  margin-top: 8rem;
+}
+
+.hero--inline {
+  display: block;
+  margin-top: 4rem;
+}
+
+.profile-pic {
+  width: var(--hero-avatar);
+  height: var(--hero-avatar);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: var(--hero-name-size);
+  font-weight: 120;
+  color: #1a1a1a;
+}
+
+.position {
+  font-size: var(--hero-role-size);
+  font-weight: 350;
+  color: #555;
+}
+
+.company {
+  font-size: var(--hero-company-size);
+  font-weight: 200;
+  color: #777;
+}
+
+.name
+.position
+.company {
+  white-space: nowrap;
+}
+
+.company a {
+  color: #888;
+}
+
+.company a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+

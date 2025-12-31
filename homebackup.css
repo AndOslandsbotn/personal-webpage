@@ -21,7 +21,7 @@
   }
 
   .home-contact {
-    grid-column 1 / -1;
+    grid-column: 1 / -1;
   }
 }
 
@@ -33,4 +33,29 @@
   .home-contact {
     grid-column: 2;
   }
+
+  .hero {
+    .position: sticky;
+    align-self:start
+  }
 }
+
+.bio {
+  font-size: clamp(1.2rem, 2vw, 1.3rem);
+  line-height: 1.4;
+  max-width: 85ch;
+}
+
+.bio-details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.interests {
+  text-align: left;
+}
+
+.education {
+    text-align: left;
+}
+
