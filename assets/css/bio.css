@@ -1,0 +1,65 @@
+.bio {
+  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  line-height: 1.4;
+}
+
+.bio-intro {
+  font-size: clamp(1.2rem, 2.3vw, 1.5rem);
+  line-height: 1.4;
+  max-width: 85ch;
+}
+
+.bio-details {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.interests {
+  text-align: left;
+}
+
+.education {
+    text-align: left;
+}
+
+.education ul {
+  list-style: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.education li {
+  position: relative;
+  padding-left: 2.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem
+}
+
+.education li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+
+  width: 2.25rem;
+  height: 2.25rem;
+
+  background: url("/icons/educationicon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.degree {
+  font-size: 1.3rem;
+}
+
+.institution {
+  font-size: 1.1rem;
+  color: #666
+}

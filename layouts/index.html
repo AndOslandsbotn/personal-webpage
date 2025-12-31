@@ -1,25 +1,44 @@
 {{ define "main" }}
-  <section class="home-layout"> 
-    
-    {{ partial "profile.html" . }}
+ <main class=page>
+  <section class="page-layout page-container">
 
-    <section class="home-about">
-      {{ partial "background.html" . }}
-        <div class="about-meta">
-          {{ partial "interests.html" . }}
-          {{ partial "education.html" . }}
+    {{ partial "hero.html" (dict "context" . "modifier" "hero--sidebar") }}
+   
+    <div class=page-content>
+      <section class=page-section--home id="home">
+        <div class=section-container>
+          <div class=bio-layout> 
+          
+            {{ partial "hero.html" (dict "context" . "modifier" "hero--inline") }}  
+          
+            <div class=bio>
+              <div class="content-container">
+                {{ partial "bio-intro.html" . }}
+                <div class="bio-details">
+                  {{ partial "interests.html" . }}
+                  {{ partial "education.html" . }}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section class="home-publications">
-      {{ partial "home-publications.html" . }}
+    <section class=page-section--publications id="publications">
+      <div class="section-container">
+        <div class=content-container>
+          {{ partial "publications.html" }}
+        </div>
+      </div>
     </section>
+    
 
-    <section class="home-contact">
-      {{ partial "home-contact.html" . }}
-    </section>
+      <section class=page-section-contect id="contact">
+        <div>
+          {{ partial "contact.html" }}
+        </div>
+      </section>
+    </div>
   </section>
-  {{ .Content }}
-
+ </main>
 {{ end }}
-
