@@ -1,3 +1,33 @@
+:root {
+  /* Fluid base font */
+  --fs-base: clamp(1rem, 0.95rem + 0.35vw, 1.125rem);
+
+  /* Type scale */
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.6rem;
+  --fs-xxl: 2.1rem;
+
+  /* Spacing scale */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+
+  /* Content widths */
+  --content-width: 72ch;
+  --wide-width: 120ch;
+}
+
+
+body {
+  font-size: var(--fs-base);
+  line-height: 1.6;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,15 +71,7 @@ h6 {
   margin-bottom: 0.3rem;
 }
 
-h1 {
-  font-size: clamp(1.5rem, 3.2vw, 2.2rem);
-}
-
-h2 {
-  font-size: clamp(1.5rem, 3vw, 2.0rem);
-}
-
-h3 {
-  color: #444;
-}
+h1 { font-size: var(--fs-xxl) }
+h2 { font-size: var(--fs-xl) }
+h3 { font-size: var(--fs-lg) }
 
