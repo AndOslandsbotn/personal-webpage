@@ -12,10 +12,19 @@
 .bio-details {
   display: grid;
   grid-template-columns: 1fr;
+
+  font-size: clamp (1.1rem, 2.2vw, 1.4rem);
+  line-height: 1.4;
 }
 
 .interests {
   text-align: left;
+}
+
+.interests ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
 .education {
@@ -28,16 +37,16 @@
 
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.9em;
 }
 
 .education li {
   position: relative;
-  padding-left: 2.6rem;
+  padding-left: 2.6em;
 
   display: flex;
   flex-direction: column;
-  gap: 0.35rem
+  gap: 0.05em
 }
 
 .education li::before {
@@ -46,8 +55,8 @@
   left: 0;
   top: 0.05em;
 
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.25em;
+  height: 2.25em;
 
   background: url("/icons/educationicon.svg");
   background-repeat: no-repeat;
@@ -56,10 +65,12 @@
 }
 
 .degree {
-  font-size: 1.3rem;
+  font-size: 1.05em;
+  color: #555;
+  font-weight: 600;
 }
 
 .institution {
-  font-size: 1.1rem;
+  font-size: 0.9em;
   color: #666
 }
