@@ -1,77 +1,12 @@
-<div class=experience>
+<div class="experience">
   <h1>Experience</h1>
-  <ol class=experience-list>
-    <li class=experience-item>
-        {{ $optoscale := site.GetPage "experience/optoscale" }}
-        {{ with $optoscale }}
-        <span class="experience-dot experience-dot--filled"></span>
-        <article class="experience-card">
-          <div class=exp-hero>
 
-            {{ with .Resources.Get .Params.figure }}
-              <img src="{{ .RelPermalink }}" alt="Figure from {{ $.Title }}">
-            {{ end }}
-            
-            <div class="exp-meta">
-            
-              <div class=exp-company>
-                {{ .Params.Company }}
-              </div>
-
-              <div class=exp-details>
-                <span class=exp-timeline>{{ .Params.Timeline }}</span>
-                <span class=exp-location>{{ .Params.Location }}</span>
-              </div>
-            </div>
-
-          </div>
-
-          <div class=exp-content>
-          <div class=exp-title>
-            {{ .Title }}
-          </div>
-
-            {{ .Content }}
-          </div>
-        </article>
-        {{ end }}
-    </li>
-
-
-      <li class=experience-item>
-          {{ $optoscale := site.GetPage "experience/optoscale" }}
-          {{ with $optoscale }}
-         <span class="experience-dot"></span>
-          <article class="experience-card">
-           <div class=exp-hero>
-
-              {{ with .Resources.Get .Params.figure }}
-                <img src="{{ .RelPermalink }}" alt="Figure from {{ $.Title }}">
-              {{ end }}
-
-              <div class="exp-meta">
-
-                <div class=exp-company>
-                  {{ .Params.Company }}
-                </div>
-
-                <div class=exp-details>
-                  <span class=exp-timeline>{{ .Params.Timeline }}</span>
-                  <span class=exp-location>{{ .Params.Location }}</span>
-                </div>
-              </div>
-
-            </div>
-
-            <div class=exp-content>
-              <div class=exp-title>
-                {{ .Title }}
-              </div>
-
-              {{ .Content }}
-            </div>
-          </article>
-          {{ end }}
-      </li>
+  <ol class="experience-list">
+    {{ range site.RegularPages.ByWeight }}
+      {{ if eq .Section "experience" }}
+        {{ partial "experience-item.html" . }}
+      {{ end }}
+    {{ end }}
   </ol>
 </div>
+

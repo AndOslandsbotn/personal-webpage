@@ -5,4 +5,3 @@ company: OptoScale
 location: Norway
 figure: optoscalelogo.svg
 ---
-Working on Machine vision

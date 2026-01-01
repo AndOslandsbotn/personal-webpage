@@ -1,19 +1,18 @@
 .bio {
-  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
+  font-size: 1rem;
   line-height: 1.4;
 }
 
 .bio-intro {
-  font-size: clamp(1.2rem, 2.3vw, 1.5rem);
+  font-size: 1.1em;
   line-height: 1.4;
-  max-width: 85ch;
 }
 
 .bio-details {
   display: grid;
   grid-template-columns: 1fr;
-
-  font-size: clamp (1.1rem, 2.2vw, 1.4rem);
+  gap: 2em; 
+  font-size: 1em;
   line-height: 1.4;
 }
 

@@ -1,3 +1,48 @@
+:root {
+  /* Fluid base font */
+  --fs-base: clamp(1rem, 0.95rem + 0.35vw, 1.125rem);
+  
+  /* Section spacing (vertical rhythm) */
+  --space-section-sm: clamp(var(--space-1), 2vw, var(--space-2));
+  --space-section-md: clamp(var(--space-2), 3vw, var(--space-4));
+  --space-section-lg: clamp(var(--space-3), 4vw, var(--space-5));
+
+  /* Horizontal gutters */
+  --space-gutter-sm: clamp(var(--space-01), 1vw, var(--space-1));
+  --space-gutter-md: clamp(var(--space-2), 4vw, var(--space-3));
+
+  /* Type scale */
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.6rem;
+  --fs-xxl: 2.1rem;
+
+  /* Spacing scale */
+  --space-01: 0.1rem;
+  --space-1: 0.5rem;
+  --space-2: 0.9rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 10rem;
+
+  /* Content widths */
+  --content-width: 72ch;
+  --wide-width: 120ch;
+  --bio-width-normal: 80ch;
+  --bio-width-inline-hero: 100ch;
+}
+
+
+body {
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,8 +54,8 @@ html {
 }
 
 body {
+  font-size: var(--fs-base);
   font-family: system-ui, sans-serif;
-  margin: 0;
   line-height: 1.6;
 }
 
@@ -41,15 +86,7 @@ h6 {
   margin-bottom: 0.3rem;
 }
 
-h1 {
-  font-size: clamp(1.5rem, 3.2vw, 2.2rem);
-}
-
-h2 {
-  font-size: clamp(1.5rem, 3vw, 2.0rem);
-}
-
-h3 {
-  color: #444;
-}
+h1 { font-size: var(--fs-xxl) }
+h2 { font-size: var(--fs-xl) }
+h3 { font-size: var(--fs-lg) }
 

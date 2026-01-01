@@ -25,30 +25,36 @@
 .page-container {
   max-width: 2000px;
   margin-inline: auto;
-  padding-inline: clamp(2rem, 4vw, 4rem);
+  padding-inline: var(--space-1);
 }
 
 .section-container {
-  max-width: 1940px;
-  margin: 0 auto;
-  padding: 3rem 4rem;
+  max-width: var(--wide-width);
+  margin: auto;
+  padding-block: var(--space-section-sm);
+  padding-inline: var(--space-gutter-sm);
 }
 
 .content-container {
-  max-width: 125ch;
+  max-width: var(--wide-width);
   margin-inline: auto;
+  padding-block: var(--space-section-sm);
+  padding-inline: var(--space-gutter-sm);
 }
 
 .page-layout {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2.5rem;
+  gap: var(--space-4);
   align-items: start;
 }
 
 .bio-layout {
   display: block;
-  padding-top: 1.5rem;
+  padding-top 1.5rem;
+
+  max-width: var(--bio-width-normal);
+  margin-inline: auto;
 }
 
 .page-content {
@@ -56,47 +62,74 @@
   min-width: 0;  
 }
 
+@media (min-width: 500) {
+  .page-container {
+    padding-inline: var(--space-2);
+  }
+}
+
 @media (min-width: 850px) {
   .bio-details {
     grid-template-columns: 1fr 1fr;
   }
+  
+  .section-container {
+    padding-block: var(--space-section-md);
+    padding-inline: var(--space-gutter-md);
+  }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1050px) {
   .content-container {
     margin-inline: 0;
+    padding-block: var(--space-section-md);
+    padding-inline: var(--space-section-md)
+  }
+
+  .section-container {
+    padding-block: var(--space-section-md);
+    padding-inline: var(--space-gutter-md);
   }
 
   .bio-layout {
     display: grid;
     grid-template-columns: 270px 1fr;
     align-items: start;
-    gap: 0.8rem;
+    gap: var(--space-2);
+
+    max-width: var(--bio-width-inline-hero);
   }
 
   .hero--inline {
-    margin-top: 8rem;
+    margin-top: var(--space-5);
   }
 
   .hero {
-    --hero-gap: 2.2rem;
-    --hero-avatar: 220px;
-    --hero-name-size: 1.4rem;
-    --hero-role-size: 1.25rem;
-    --hero-company-size: 1.2rem;
+    font-size: var(--fs-md)
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .bio-layout {
-    column-gap: 1.5rem;
+    column-gap: var(--space-3);
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
+  .content-container {
+    padding-block: var(--space-section-lg);
+    padding-inline: var(--space-section-lg)
+  }
+
+  .section-container {
+    padding-block: var(--space-section-lg);
+    padding-inline: var(--space-gutter-lg);
+  }
+
   .bio-layout {
     display: block;
-    gap: 2.5rem;
+    max-width: var(--bio-width-normal);
+    margin-inline: 0;
   }
 
   .page-layout {
@@ -110,7 +143,8 @@
   .hero--sidebar {
     display: block;
     position: sticky;
-    top: 8rem;
+    top: var(--space-5);
+
     grid-column: 1;
   }
 
@@ -123,11 +157,6 @@
   }
 
   .hero {
-    --hero-gap: 2.3rem;
-    --hero-avatar: 310px;
-    --hero-name-size: 1.85rem;
-    --hero-role-size: 1.35rem;
-    --hero-company-size: 1.3rem;
+    font-size: var(--fs-lg)
   }
-
 }
