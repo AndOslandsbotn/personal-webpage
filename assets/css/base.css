@@ -25,6 +25,8 @@
 body {
   font-size: var(--fs-base);
   line-height: 1.6;
+  margin: 0;
+  font-family: system-ui, sans-serif;
 }
 
 
@@ -39,8 +41,8 @@ html {
 }
 
 body {
+  font-size: var(--fs-base);
   font-family: system-ui, sans-serif;
-  margin: 0;
   line-height: 1.6;
 }
 
