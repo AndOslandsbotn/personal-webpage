@@ -14,8 +14,12 @@
   background-color: #f0f0f0;
 }
 
+.page-section--experience {
+  background-color: white;
+}
+
 .page-section--contact {
-  background-color: blue;
+  background-color: #f0f0f0;
 }
 
 .page-container {
@@ -31,7 +35,7 @@
 }
 
 .content-container {
-  max-width: 115ch;
+  max-width: 125ch;
   margin-inline: auto;
 }
 

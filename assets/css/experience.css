@@ -1,0 +1,139 @@
+.experience-list {
+  --timeline-x: 1.25rem;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  margin: 0;
+  padding-left: 5rem;
+  list-style: none;
+}
+
+.experience-list::before {
+  content: "";
+  position: absolute;
+  left: var(--timeline-x);
+  top: 0;
+  bottom: 0;
+
+  width: 3px;
+  background-color: #777;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+}
+
+.experience-dot {
+  z-index: 100;
+ 
+  position: absolute;
+  left: var(--timeline-x);
+  transform: translateX(-50%);
+  
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  background-color: #fafafa;
+  border: 3px solid #777;
+  box-sizing: border-box;;
+}
+
+.experience-dot--filled {
+  background-color: #777;   
+}
+
+.experience-card {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+
+  margin-left: 2rem;
+  padding: 1.0rem 1.8rem;
+  
+  border: 1px solid #e5e5e5;
+  border-radius: 0.75rem;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+
+  box-shadow:
+    2px 1px 2px rgba(0, 0, 0, 0.05),
+    0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.exp-hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2.5rem;
+  align-items: center;
+}
+
+.exp-hero img {
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+  display: block;
+}
+
+.exp-meta {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.1rem;
+}
+
+.exp-title {
+  font-size: 1.5em;
+  color: #444
+}
+
+.exp-company {
+  font-size: 1.6em;
+  color: #777
+}
+
+.exp-details {
+  font-size: 1.3em;
+  color: #666;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.exp-details span {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.exp-details span + span::before {
+  content: "";
+  display: inline-block;
+
+  width: 0.15em;
+  height: 0.15em;
+  border-radius: 50%;
+
+  background-color: #666;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.exp-timeline {
+}
+
+.exp-location {
+}
+
+.exp-content {
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+}
