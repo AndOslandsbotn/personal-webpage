@@ -1,47 +1,63 @@
+.experience {
+  container-type: inline-size;
+  
+  font-size: var(--fs-md);
+  
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+
+  margin-block: var(--space-2);
+  margin-inline: auto;
+}
+
 .experience-list {
-  --timeline-x: 1.25rem;
+  --timeline-x: 1.25em;
 
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: var(--space-2);
 
   margin: 0;
-  padding-left: 5rem;
+  padding-left: 0;
   list-style: none;
 }
 
 .experience-list::before {
   content: "";
   position: absolute;
+  inset-block: 0;
   left: var(--timeline-x);
-  top: 0;
-  bottom: 0;
 
-  width: 3px;
+  width: 2px;
   background-color: #777;
+
+  display: none;
 }
 
 .experience-item {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
 .experience-dot {
-  z-index: 100;
- 
+  z-index: 2;
+  
   position: absolute;
   left: var(--timeline-x);
   transform: translateX(-50%);
   
-  width: 2rem;
-  height: 2rem;
+  width: 1.1em;
+  height: 1.1em;
   border-radius: 50%;
-  box-sizing: border-box;
-
+  
   background-color: #fafafa;
-  border: 3px solid #777;
+  border: 2px solid #777;
   box-sizing: border-box;;
+  
+  display: none;
 }
 
 .experience-dot--filled {
@@ -53,16 +69,16 @@
   position: relative;
   z-index: 2;
 
-  margin-left: 2rem;
-  padding: 1.0rem 1.8rem;
+  margin-left: 0;
+  padding: 0.7em 0.9em;
   
   border: 1px solid #e5e5e5;
-  border-radius: 0.75rem;
+  border-radius: 0.75em;
   background-color: #fff;
 
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.6em;
 
   box-shadow:
     2px 1px 2px rgba(0, 0, 0, 0.05),
@@ -70,17 +86,15 @@
 }
 
 .exp-hero {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 2.5rem;
+  display: flex;
   align-items: center;
+  gap: 0.8em;
 }
 
 .exp-hero img {
-  width: 94px;
-  height: 94px;
+  width: 2em;
+  height: 2em;
   object-fit: contain;
-  display: block;
 }
 
 .exp-meta {
@@ -90,21 +104,23 @@
 }
 
 .exp-title {
-  font-size: 1.5em;
+  font-size: 1.1em;
   color: #444
 }
 
 .exp-company {
-  font-size: 1.6em;
+  font-size: 0.9em;
   color: #777
 }
 
 .exp-details {
-  font-size: 1.3em;
-  color: #666;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #888;
 
   display: flex;
   align-items: center;
+  gap: 0.9em;
 
 }
 
@@ -123,8 +139,8 @@
   border-radius: 50%;
 
   background-color: #666;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .exp-timeline {
@@ -134,6 +150,37 @@
 }
 
 .exp-content {
-  margin-top: 0.2rem;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
+
+
+@container (min-width: 40ch) {
+  .experience-list::before {
+    display: block;
+  }
+
+  .experience-dot {
+    display: block;
+  }
+
+  .experience-card {
+    margin-left: 4em;
+    padding: 0.8em 1.1em;
+  }
+}
+
+@container (min-width: 60ch) {
+  .experience-list {
+    font-size: var(--fs-lg);
+  }
+
+  .experience-card {
+    padding: 0.9em 1.2em;
+  }
+
+  .exp-hero img {
+    width: 2.5em;
+    height: 2.5em;
+  }
+}
+

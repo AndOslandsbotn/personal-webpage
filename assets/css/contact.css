@@ -1,18 +1,20 @@
 .contact {
-  font-size: 2rem;
-  text-align: center;
+  font-size: var(--fs-md);
   padding: 10rem;
   
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  
+  text-align: center;
+  align-items: center;
+  gap: 2.5em;
 }
 
 .email-link {
   display: inline-block;
-  padding-left: 5.2rem;
+  padding-left: 5.2em;
   background-image: url("/icons/emailsymbol.svg");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 3.5rem;
+  background-size: 1.5em;
 }

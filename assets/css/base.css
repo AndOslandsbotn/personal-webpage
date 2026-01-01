@@ -1,6 +1,15 @@
 :root {
   /* Fluid base font */
   --fs-base: clamp(1rem, 0.95rem + 0.35vw, 1.125rem);
+  
+  /* Section spacing (vertical rhythm) */
+  --space-section-sm: clamp(var(--space-1), 2vw, var(--space-2));
+  --space-section-md: clamp(var(--space-2), 3vw, var(--space-4));
+  --space-section-lg: clamp(var(--space-3), 4vw, var(--space-5));
+
+  /* Horizontal gutters */
+  --space-gutter-sm: clamp(var(--space-01), 1vw, var(--space-1));
+  --space-gutter-md: clamp(var(--space-2), 4vw, var(--space-3));
 
   /* Type scale */
   --fs-sm: 0.875rem;
@@ -10,15 +19,19 @@
   --fs-xxl: 2.1rem;
 
   /* Spacing scale */
+  --space-01: 0.1rem;
   --space-1: 0.5rem;
-  --space-2: 1rem;
+  --space-2: 0.9rem;
   --space-3: 1.5rem;
   --space-4: 2.5rem;
   --space-5: 4rem;
+  --space-6: 10rem;
 
   /* Content widths */
   --content-width: 72ch;
   --wide-width: 120ch;
+  --bio-width-normal: 80ch;
+  --bio-width-inline-hero: 100ch;
 }
 
 
