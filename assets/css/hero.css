@@ -1,4 +1,6 @@
 .hero {
+  font-size: 1rem;
+
   --hero-gap: 2rem;
   --hero-avatar: 280px;
   --hero-name-size: clamp(1.5rem, 3.1vw, 2.0rem);
@@ -9,40 +11,40 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: var(--hero-gap);
+  gap: 1.5em;
 }
 
 .hero--sidebar {
   display: none;
-  margin-top: 8rem;
+  margin-top: var(--space-5);
 }
 
 .hero--inline {
   display: block;
-  margin-top: 4rem;
+  margin-top: var(--space-4);
 }
 
 .profile-pic {
-  width: var(--hero-avatar);
-  height: var(--hero-avatar);
+  width: 12em;
+  height: 12em;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .name {
-  font-size: var(--hero-name-size);
-  font-weight: 120;
+  font-size: 1.6em;
+  font-weight: 500;
   color: #1a1a1a;
 }
 
 .position {
-  font-size: var(--hero-role-size);
+  font-size: 1.1em;
   font-weight: 350;
   color: #555;
 }
 
 .company {
-  font-size: var(--hero-company-size);
+  font-size: 1em;
   font-weight: 200;
   color: #777;
 }
