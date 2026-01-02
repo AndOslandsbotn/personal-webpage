@@ -1,6 +1,19 @@
+.bio-layout {
+  container-type: inline-size;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 2em;
+  align-items: start;
+}
+
 .bio {
-  font-size: 1rem;
+  font-size: var(--fs-sm);
   line-height: 1.4;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 .bio-intro {
@@ -59,7 +72,7 @@
 
   background: url("/icons/educationicon.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cente;
   background-size: contain;
 }
 
@@ -73,3 +86,52 @@
   font-size: 0.9em;
   color: #666
 }
+
+/*@container (min-width: 45ch) {
+  .bio-details {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero {
+    font-size: var(--fs-md);
+  }
+}
+
+@container (min-width: 55ch) {
+  .bio-layout {
+    column-gap: var(--space-3);
+  }
+
+  .hero {
+    font-size: var(--fs-lg);
+  }
+}
+
+@container (min-width: 65ch) {
+  .bio {
+    font-size: var(--fs-md);
+  }
+  
+  .bio .content-container {
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .bio-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    align-items: start;
+    max-width: var(--bio-width-inline-hero);
+  }
+}
+
+@container (min-width: 85ch) {
+  .bio-layout {
+    display: block;
+    max-width: var(--bio-width-normal);
+    margin-inline: 0;
+  }
+}
+
+*/

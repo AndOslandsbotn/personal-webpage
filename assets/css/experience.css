@@ -1,13 +1,15 @@
 .experience {
   container-type: inline-size;
   
-  font-size: var(--fs-md);
+  font-size: var(--fs-sm);
   
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: 1.5em;
 
-  margin-block: var(--space-2);
+  --timeline-x: 1.25em;
+  
+  margin-block: 1em;
   margin-inline: auto;
 }
 
@@ -104,17 +106,17 @@
 }
 
 .exp-title {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #444
 }
 
 .exp-company {
-  font-size: 0.9em;
+  font-size: 1.3em;
   color: #777
 }
 
 .exp-details {
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-weight: 400;
   color: #888;
 
@@ -155,6 +157,10 @@
 
 
 @container (min-width: 40ch) {
+  .experience {
+    font-size: var(--fs-md);
+  }
+
   .experience-list::before {
     display: block;
   }
@@ -170,7 +176,7 @@
 }
 
 @container (min-width: 60ch) {
-  .experience-list {
+  .experience {
     font-size: var(--fs-lg);
   }
 

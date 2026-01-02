@@ -3,13 +3,18 @@
   --fs-base: clamp(1rem, 0.95rem + 0.35vw, 1.125rem);
   
   /* Section spacing (vertical rhythm) */
-  --space-section-sm: clamp(var(--space-1), 2vw, var(--space-2));
-  --space-section-md: clamp(var(--space-2), 3vw, var(--space-4));
-  --space-section-lg: clamp(var(--space-3), 4vw, var(--space-5));
+  --clamp-vert-sm: clamp(var(--space-1), 2vw, var(--space-2));
+  --clamp-vert-md: clamp(var(--space-2), 2.5vw, var(--space-3));
+  --clamp-vert-lg: clamp(var(--space-3), 3vw, var(--space-4));
 
   /* Horizontal gutters */
-  --space-gutter-sm: clamp(var(--space-01), 1vw, var(--space-1));
-  --space-gutter-md: clamp(var(--space-2), 4vw, var(--space-3));
+  --clamp-horiz-sm: clamp(var(--space-01), 1vw, var(--space-1));
+  --clamp-horiz-md: clamp(var(--space-2), 4vw, var(--space-3));
+  --clamp-horiz-lg: clamp(var(--space-3), 6vw, var(--space-4));
+
+  /* Spacing to header menu*/
+    --header-height: 1.5rem;
+    --header-gap: var(--space-6);
 
   /* Type scale */
   --fs-sm: 0.875rem;
@@ -29,7 +34,7 @@
 
   /* Content widths */
   --content-width: 72ch;
-  --wide-width: 120ch;
+  --wide-content-width: 120ch;
   --bio-width-normal: 80ch;
   --bio-width-inline-hero: 100ch;
 }
@@ -83,10 +88,10 @@ h5,
 h6 {
   color: #333;
   font-weight: 600;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.3em;
 }
 
-h1 { font-size: var(--fs-xxl) }
-h2 { font-size: var(--fs-xl) }
-h3 { font-size: var(--fs-lg) }
+h1 { font-size: 1.9em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.25em; }
 

@@ -1,6 +1,6 @@
 .contact {
-  font-size: var(--fs-md);
-  padding: 10rem;
+  font-size: var(--fs-sm);
+  padding: 10em;
   
   display: flex;
   flex-direction: column;
@@ -18,3 +18,20 @@
   background-position: left center;
   background-size: 1.5em;
 }
+
+@media (min-width: 850px) {
+  .contact {
+    font-size: var(--fs-md);
+    padding-block: 4em;
+    padding-inline: 2.5em;
+  }
+}
+
+@media (min-width: 1300px) {
+  .contact {
+    font-size: var(--fs-lg);
+    padding-block: 5em;
+    padding-inline: 4em;
+  }
+}
+
