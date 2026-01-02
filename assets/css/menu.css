@@ -1,6 +1,6 @@
 .menu {
   position: relative;
-  font-size: var(--fs-sm);
+  font-size: 1em;
 }
 
 .menu-bar {
@@ -9,7 +9,7 @@
   align-items: center;
   min-height: var(--header-height);
 
-  padding: 0.7em 0.8em;
+  padding: 0.3em 0.4em;
   background: white;
   z-index: 2;
 }
@@ -52,8 +52,8 @@
   flex-direction: column;
   justify-content: space-between;
 
-  width: 28px;
-  height: 20px;
+  width: 22px;
+  height: 14px;
   padding: 0.25em 0.5em;
 
   background: none;
@@ -63,7 +63,7 @@
 
 .menu-toggle span {
   display: block;
-  height: 3px;
+  height: 2.5px;
   width: 100%;
   background-color: #555;
   border-radius: 2px;
@@ -80,13 +80,13 @@
   padding: 0.4em 0;
   color: #555;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 .menu-items a:hover {
   color: #888;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: none;
 }
 

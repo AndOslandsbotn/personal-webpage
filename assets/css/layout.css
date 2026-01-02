@@ -66,17 +66,12 @@
     padding-inline: var(--clamp-horiz-md);
   }
 
-
   .bio-details {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1050px) {
-  .site-header {
-    font-size: var(--fs-md);
-  }
-  
   .page-container {
     padding-inline: var(--space-4);
   }
@@ -156,7 +151,7 @@
   .hero--inline {
     display: none;
   }
-  
+
   .page-content {
     grid-column 2;
   }
@@ -165,3 +160,4 @@
     font-size: var(--fs-lg)
   }
 }
+

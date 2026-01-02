@@ -1,8 +1,12 @@
 .site-header {
+  container-type: inline-size;
+
   font-size: var(--fs-sm);
+  
   position: sticky;
   top: 0;
   z-index: 10000;
+  
   background: white;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
@@ -17,5 +21,11 @@
 .site-title:hover {
   color: #333;
   text-decoration: none;
+}
+
+@media (min-width: 850px) {
+  .site-header {
+    font-size: var(--fs-md);
+  }
 }
 
