@@ -11,7 +11,7 @@
 </head>
 
  {{ $cards := (resources.Get "js/experience-cards.js") | resources.Minify }}
-W <script src="{{ $cards.RelPermalink }}"></script>
+<script src="{{ $cards.RelPermalink }}"></script>
 
 <body>
 
