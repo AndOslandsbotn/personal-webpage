@@ -10,7 +10,8 @@
 
 </head>
 
-<script src="/js/experience-cards.js" defer></script>
+ {{ $cards := (resources.Get "js/experience-cards.js") | resources.Minify }}
+W <script src="{{ $cards.RelPermalink }}"></script>
 
 <body>
 
