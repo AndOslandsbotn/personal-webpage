@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Personal Webpage</title>
-    <link>https://andoslandsbotn.github.io/andreasoslandsbotn/categories/</link>
+    <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/categories/</link>
     <description>Recent content in Categories on Personal Webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://andoslandsbotn.github.io/andreasoslandsbotn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andreas.oslandsbotn.com/andreasoslandsbotn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
