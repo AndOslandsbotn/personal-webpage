@@ -1,4 +1,4 @@
-baseURL = 'https://andoslandsbotn.github.io/andreasoslandsbotn/'
+baseURL = 'https://andreas.oslandsbotn.com/andreasoslandsbotn/'
 languageCode = 'en-us'
 title = 'Personal Webpage'
 publishDir = 'docs'
