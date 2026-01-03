@@ -1,4 +1,4 @@
-baseURL = 'https://andreas.oslandsbotn.com/andreasoslandsbotn/'
+baseURL = 'https://andreas.oslandsbotn.com/'
 languageCode = 'en-us'
 title = 'Personal Webpage'
 publishDir = 'docs'
