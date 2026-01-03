@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on Personal Webpage</title>
-    <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/</link>
+    <link>https://andreas.oslandsbotn.com/experience/</link>
     <description>Recent content in Experiences on Personal Webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://andreas.oslandsbotn.com/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MSc in Applied Physics</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/master/</link>
+      <link>https://andreas.oslandsbotn.com/experience/master/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/master/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/master/</guid>
       <description></description>
     </item>
     <item>
       <title>Research Intern</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/neo/</link>
+      <link>https://andreas.oslandsbotn.com/experience/neo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/neo/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/neo/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Intern</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/cern/</link>
+      <link>https://andreas.oslandsbotn.com/experience/cern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/cern/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/cern/</guid>
       <description></description>
     </item>
     <item>
       <title>PhD Candidate in Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/simula/</link>
+      <link>https://andreas.oslandsbotn.com/experience/simula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/simula/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/simula/</guid>
       <description></description>
     </item>
     <item>
       <title>Visiting Research Scholar</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/ucsd/</link>
+      <link>https://andreas.oslandsbotn.com/experience/ucsd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/ucsd/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/ucsd/</guid>
       <description></description>
     </item>
     <item>
       <title>PhD - Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/phd/</link>
+      <link>https://andreas.oslandsbotn.com/experience/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/phd/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/phd/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning Engineer</title>
-      <link>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/optoscale/</link>
+      <link>https://andreas.oslandsbotn.com/experience/optoscale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/andreasoslandsbotn/experience/optoscale/</guid>
+      <guid>https://andreas.oslandsbotn.com/experience/optoscale/</guid>
       <description>&lt;h3 id=&#34;responsibilities--progression&#34;&gt;Responsibilities &amp;amp; progression&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jan. 2025 – present&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Lead development of automatic feeding system&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In charge of system-level planning and architecture&lt;/li&gt;&#xA;&lt;li&gt;Worked with YOLO and MoViNet to develop machine vision algorithms&lt;/li&gt;&#xA;&lt;li&gt;Developed Object tracking alogrithm for video streams&lt;/li&gt;&#xA;&lt;li&gt;Deployed and maintained models and services on production hardware&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jun. 2024 – Dec. 2024&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Machine learning infrastructure and efficiency&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved model efficiency and evaluation pipelines&lt;/li&gt;&#xA;&lt;li&gt;Developed and maintained data pipelines&lt;/li&gt;&#xA;&lt;li&gt;Strengthened CI/CD for ML workflows&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
