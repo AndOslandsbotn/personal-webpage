@@ -2,34 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/</loc>
+    <loc>http://localhost:1313/experience/master/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/blog/</loc>
+    <loc>http://localhost:1313/experience/neo/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/categories/</loc>
+    <loc>http://localhost:1313/experience/cern/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/education/</loc>
+    <loc>http://localhost:1313/experience/simula/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/erms-2023/</loc>
+    <loc>http://localhost:1313/experience/ucsd/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/</loc>
+    <loc>http://localhost:1313/experience/phd/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/beam-impact-2019/</loc>
+    <loc>http://localhost:1313/experience/optoscale/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/ap-inversion-2023/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/optoscale/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/cgraphlp-2024/</loc>
+    <loc>http://localhost:1313/education/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/streamrak-2022/</loc>
+    <loc>http://localhost:1313/publications/erms-2023/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/publications/sfv-2026/</loc>
+    <loc>http://localhost:1313/experience/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/tags/</loc>
+    <loc>http://localhost:1313/publications/beam-impact-2019/</loc>
   </url><url>
-    <loc>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/cern/</loc>
+    <loc>http://localhost:1313/publications/ap-inversion-2023/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/cgraphlp-2024/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/streamrak-2022/</loc>
+  </url><url>
+    <loc>http://localhost:1313/publications/sfv-2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

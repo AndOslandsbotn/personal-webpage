@@ -63,7 +63,9 @@
 }
 
 .experience-dot--filled {
-  background-color: #777;   
+  width: 1.4em;
+  height: 1.4em;
+  background-color: #388E3C;   
 }
 
 .experience-card {
@@ -73,7 +75,7 @@
 
   margin-left: 0;
   padding: 0.7em 0.9em;
-  
+
   border: 1px solid #e5e5e5;
   border-radius: 0.75em;
   background-color: #fff;
@@ -94,8 +96,8 @@
 }
 
 .exp-hero img {
-  width: 2em;
-  height: 2em;
+  width: 1.8em;
+  height: 1.8em;
   object-fit: contain;
 }
 
@@ -107,11 +109,12 @@
 
 .exp-title {
   font-size: 1.2em;
+  font-weight: 500;
   color: #444
 }
 
 .exp-company {
-  font-size: 1.3em;
+  font-size: 1.0em;
   color: #777
 }
 
@@ -142,7 +145,7 @@
 
   background-color: #666;
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 0.9em;
 }
 
 .exp-timeline {
@@ -152,9 +155,17 @@
 }
 
 .exp-content {
-  font-size: 0.6em;
+  font-size: 0.9em;
+  opacity: 0;
+  height: 0;
+  transition:
+    height 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.2s ease;
 }
 
+.exp-content.is-open {
+  opacity: 1;
+}
 
 @container (min-width: 40ch) {
   .experience {

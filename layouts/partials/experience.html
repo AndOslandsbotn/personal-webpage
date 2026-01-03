@@ -1,11 +1,9 @@
 <div class="experience">
   <h1>Experience</h1>
-
   <ol class="experience-list">
-    {{ range site.RegularPages.ByWeight }}
-      {{ if eq .Section "experience" }}
-        {{ partial "experience-item.html" . }}
-      {{ end }}
+    {{ $items := where site.RegularPages "Section" "experience" }}
+    {{ range $items.ByWeight.Reverse }}
+      {{ partial "experience-item.html" . }}
     {{ end }}
   </ol>
 </div>
