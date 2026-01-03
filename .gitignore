@@ -1,3 +1,4 @@
 .hugo-local
 .venv/
+.hugo-local
 site/

@@ -1,5 +1,3 @@
-console.log("experience-cards.js loaded");
-
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.experience-card').forEach(card => {
     const content = card.querySelector('.exp-content');
