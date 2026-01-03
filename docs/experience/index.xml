@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on Personal Webpage</title>
-    <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/</link>
+    <link>http://localhost:1313/experience/</link>
     <description>Recent content in Experiences on Personal Webpage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://andoslandsbotn.github.io/andreasoslandsbotn/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MSc in Applied Physics</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/master/</link>
+      <link>http://localhost:1313/experience/master/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/master/</guid>
+      <guid>http://localhost:1313/experience/master/</guid>
       <description></description>
     </item>
     <item>
       <title>Research Intern</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/neo/</link>
+      <link>http://localhost:1313/experience/neo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/neo/</guid>
+      <guid>http://localhost:1313/experience/neo/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Intern</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/cern/</link>
+      <link>http://localhost:1313/experience/cern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/cern/</guid>
+      <guid>http://localhost:1313/experience/cern/</guid>
       <description></description>
     </item>
     <item>
       <title>PhD Candidate in Computer Science</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/simula/</link>
+      <link>http://localhost:1313/experience/simula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/simula/</guid>
+      <guid>http://localhost:1313/experience/simula/</guid>
       <description></description>
     </item>
     <item>
       <title>Visiting Research Scholar</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/ucsd/</link>
+      <link>http://localhost:1313/experience/ucsd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/ucsd/</guid>
+      <guid>http://localhost:1313/experience/ucsd/</guid>
       <description></description>
     </item>
     <item>
       <title>PhD - Computer Science</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/phd/</link>
+      <link>http://localhost:1313/experience/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/phd/</guid>
+      <guid>http://localhost:1313/experience/phd/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning Engineer</title>
-      <link>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/optoscale/</link>
+      <link>http://localhost:1313/experience/optoscale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andoslandsbotn.github.io/andreasoslandsbotn/experience/optoscale/</guid>
+      <guid>http://localhost:1313/experience/optoscale/</guid>
       <description>&lt;h3 id=&#34;responsibilities--progression&#34;&gt;Responsibilities &amp;amp; progression&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jan. 2025 – present&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Lead development of automatic feeding system&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In charge of system-level planning and architecture&lt;/li&gt;&#xA;&lt;li&gt;Worked with YOLO and MoViNet to develop machine vision algorithms&lt;/li&gt;&#xA;&lt;li&gt;Developed Object tracking alogrithm for video streams&lt;/li&gt;&#xA;&lt;li&gt;Deployed and maintained models and services on production hardware&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jun. 2024 – Dec. 2024&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Machine learning infrastructure and efficiency&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved model efficiency and evaluation pipelines&lt;/li&gt;&#xA;&lt;li&gt;Developed and maintained data pipelines&lt;/li&gt;&#xA;&lt;li&gt;Strengthened CI/CD for ML workflows&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
