@@ -43,6 +43,11 @@
   object-fit: contain;
 }
 
+.social-icon {
+  width: 26px;
+  height: 26px;
+}
+
 .social-link:hover {
   opacity: 0.75;
 }
