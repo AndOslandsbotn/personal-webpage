@@ -12,5 +12,21 @@
   <div class="company">
       <a href="https://optoscale.no/?lang=en" target="_blank" rel="noopener">OptoScale</a>
   </div>
+  <div class="social-links">
+    {{ range .context.Params.Social }}
+    {{ $url := .url }}
+    {{ $external := (hasPrefix $url "http") }}
+      <a class="social-link" 
+         href="{{ .url }}"
+         {{ if $external }}target="_blank" rel="noopener"{{ end }}
+         area-label="{{ .name }}">
+        <img
+          class="social-link"
+          src="/icons/{{ .icon }}"
+          alt="{{ .name }}"
+        >
+      </a>
+    {{ end }}
+  </div>
 </div>
 

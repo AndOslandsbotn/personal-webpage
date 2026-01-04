@@ -65,7 +65,7 @@
 .experience-dot--filled {
   width: 1.4em;
   height: 1.4em;
-  background-color: #388E3C;   
+  background-color: #999;   
 }
 
 .experience-card {
@@ -92,12 +92,11 @@
 .exp-hero {
   display: flex;
   align-items: center;
-  gap: 0.8em;
+  gap: 0.6em;
 }
 
 .exp-hero img {
-  width: 1.8em;
-  height: 1.8em;
+  height: 2.2em;
   object-fit: contain;
 }
 
@@ -113,8 +112,15 @@
   color: #444
 }
 
+.exp-thesis
+.exp-thesis a {
+  font-size: 10.9em;
+  font-weight: 200;
+  color: #666;
+}
+
 .exp-company {
-  font-size: 1.0em;
+  font-size: 1.2em;
   color: #777
 }
 
@@ -155,12 +161,31 @@
 }
 
 .exp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
   font-size: 0.9em;
   opacity: 0;
   height: 0;
+
   transition:
     height 0.6s cubic-bezier(0.4, 0, 0.2, 1),
     opacity 0.2s ease;
+}
+
+
+.exp-content p {
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+}
+
+.exp-content h1
+.exp-content h2
+.exp-content h3
+.exp-content h4
+.exp-content h5 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .exp-content.is-open {
@@ -196,8 +221,7 @@
   }
 
   .exp-hero img {
-    width: 2.5em;
-    height: 2.5em;
+    height: 2.8em;
   }
 }
 

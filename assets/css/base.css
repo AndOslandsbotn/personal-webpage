@@ -17,11 +17,11 @@
     --header-gap: var(--space-6);
 
   /* Type scale */
-  --fs-sm: 0.875rem;
-  --fs-md: 1rem;
-  --fs-lg: 1.25rem;
-  --fs-xl: 1.6rem;
-  --fs-xxl: 2.1rem;
+  --fs-sm: 0.87rem;
+  --fs-md: 0.95rem;
+  --fs-lg: 1.1rem;
+  --fs-xl: 1.3rem;
+  --fs-xxl: 1.6rem;
 
   /* Spacing scale */
   --space-01: 0.1rem;
@@ -65,9 +65,9 @@ body {
 }
 
 a {
-  color: #666;
+  color: #555;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 a:hover {

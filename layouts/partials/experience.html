@@ -3,7 +3,17 @@
   <ol class="experience-list">
     {{ $items := where site.RegularPages "Section" "experience" }}
     {{ range $items.ByWeight.Reverse }}
-      {{ partial "experience-item.html" . }}
+      {{ if eq .Params.template "default" }}
+        {{ partial "experience-item.html" . }}
+      {{ end }}
+
+      {{ if eq .Params.template "phd" }}
+        {{ partial "experience-item-phd.html" . }}
+      {{ end }}
+
+      {{ if eq .Params.template "master" }}
+        {{ partial "experience-item-master.html" . }}
+      {{ end }}
     {{ end }}
   </ol>
 </div>

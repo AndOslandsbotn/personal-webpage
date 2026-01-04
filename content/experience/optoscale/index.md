@@ -4,7 +4,8 @@ current: true
 timeline: Jun. 2024 - present
 company: OptoScale
 location: Norway
-figure: optoscalelogo.svg
+figure: optoscaledeco.svg 
+template: default
 weight: 7
 ---
 
