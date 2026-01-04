@@ -1,7 +1,15 @@
 ---
-title: PhD - Computer Science 
-company: University of Oslo (UiO)
-timeline: Jan 2024
+title: PhD Candidate in Computer Science
+company: Simula Research Laboratory
+university: University of Oslo
+timeline: Aug 2019 - Jan 2024
 location: Norway
-weight: 6
+companylogo: simuladeco.svg 
+universitylogo: uiodeco.svg
+weight: 4
+template: phd
 ---
+
+### Work and Research
+-We did several things
+-Like this

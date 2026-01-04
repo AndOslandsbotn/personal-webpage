@@ -1,0 +1,44 @@
+<li class="experience-item">
+   <span class="experience-dot {{ if .Params.current }}experience-dot-  -filled{{ end }}"></span>
+
+    <article class="experience-card">
+      <div class="exp-title">{{ .Title }}</div>
+      <div class="exp-hero">
+        {{ with .Resources.Get .Params.companylogo }}
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+        {{ end }}
+
+        <div class="exp-meta">
+          <div class="exp-company">
+            {{ .Params.company }}
+          </div>
+
+          <div class="exp-details">
+            <span class="exp-timeline">{{ .Params.timeline }}</span>
+            <span class="exp-location">{{ .Params.location }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-hero">
+        {{ with .Resources.Get .Params.universitylogo }}
+          <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+        {{ end }}
+
+        <div class="exp-meta">
+          <div class="exp-company">
+            {{ .Params.university }}
+          </div>
+
+          <div class="exp-details">
+            <span class="exp-timeline">{{ .Params.timeline }}</span>
+            <span class="exp-location">{{ .Params.location }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-content">
+        {{ .Content }}
+      </div>
+    </article>
+</li>

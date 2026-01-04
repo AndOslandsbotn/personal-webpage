@@ -69,6 +69,10 @@
   .bio-details {
     grid-template-columns: 1fr 1fr;
   }
+
+  .hero {
+    font-size: var(--fs-md);
+  }
 }
 
 @media (min-width: 1050px) {
@@ -98,11 +102,11 @@
   }
 
   .hero--inline {
-    margin-top: var(--space-6);
+    margin-top: var(--space-5);
   }
 
   .hero {
-    font-size: var(--fs-md);
+    font-size: var(--fs-lg);
   }
 }
 

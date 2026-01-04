@@ -65,7 +65,7 @@
 .experience-dot--filled {
   width: 1.4em;
   height: 1.4em;
-  background-color: #388E3C;   
+  background-color: #999;   
 }
 
 .experience-card {
@@ -92,12 +92,11 @@
 .exp-hero {
   display: flex;
   align-items: center;
-  gap: 0.8em;
+  gap: 0.6em;
 }
 
 .exp-hero img {
-  width: 1.8em;
-  height: 1.8em;
+  height: 2.2em;
   object-fit: contain;
 }
 
@@ -113,8 +112,15 @@
   color: #444
 }
 
+.exp-thesis
+.exp-thesis a {
+  font-size: 10.9em;
+  font-weight: 200;
+  color: #666;
+}
+
 .exp-company {
-  font-size: 1.0em;
+  font-size: 1.2em;
   color: #777
 }
 
@@ -215,8 +221,7 @@
   }
 
   .exp-hero img {
-    width: 2.5em;
-    height: 2.5em;
+    height: 2.8em;
   }
 }
 
