@@ -12,10 +12,10 @@
       <link>https://andreas.oslandsbotn.com/experience/master/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/master/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;masters-thesis&#34;&gt;Master’s thesis&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Shape Optimisation with the Multimesh Formulation of the Stokes Equations&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Average grade: A&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed a gradient-based shape optimisation framework combined with the multimesh finite element method, avoiding costly re-meshing of moving objects.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Derived a novel analytical shape gradient for the Stokes-drag problem using the adjoint approach and Hadamard’s theorem.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Validated the method numerically, demonstrating accurate gradients near extrema and competitive performance on relevant benchmarks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;core-coursework&#34;&gt;Core coursework&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Physics&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optics&lt;/li&gt;&#xA;&lt;li&gt;Classical mechanics&lt;/li&gt;&#xA;&lt;li&gt;Quantum mechanics&lt;/li&gt;&#xA;&lt;li&gt;Electromagnetism&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Mathematics&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Research Intern</title>
+      <title>Technical Intern</title>
       <link>https://andreas.oslandsbotn.com/experience/neo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/neo/</guid>
@@ -26,27 +26,20 @@
       <link>https://andreas.oslandsbotn.com/experience/cern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/cern/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;te-mpe-department-magnet-protection--electrical-integrity&#34;&gt;TE-MPE Department (Magnet Protection &amp;amp; Electrical Integrity)&lt;/h3&gt;&#xA;&lt;p&gt;Contributed to experimental work supporting the HiLumi upgrade of the LHC&lt;/p&gt;&#xA;&lt;h3 id=&#34;responsibilities&#34;&gt;Responsibilities&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and built an experiment to study proton-beam effects on superconducting magnets&lt;/li&gt;&#xA;&lt;li&gt;Planned the setup and produced CAD designs in collaboration with CERN’s mechanical workshop&lt;/li&gt;&#xA;&lt;li&gt;Assembled, executed, and analyzed the experiment, including PXI-based sensor data acquisition&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>PhD Candidate in Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/experience/simula/</link>
+      <link>https://andreas.oslandsbotn.com/experience/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/experience/simula/</guid>
-      <description></description>
+      <guid>https://andreas.oslandsbotn.com/experience/phd/</guid>
+      <description>&lt;h3 id=&#34;work-and-research&#34;&gt;Work and Research&lt;/h3&gt;&#xA;&lt;p&gt;-We did several things&#xA;-Like this&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visiting Research Scholar</title>
       <link>https://andreas.oslandsbotn.com/experience/ucsd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/ucsd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PhD - Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/experience/phd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/experience/phd/</guid>
       <description></description>
     </item>
     <item>
