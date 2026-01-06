@@ -12,42 +12,35 @@
       <link>https://andreas.oslandsbotn.com/experience/master/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/master/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;thesis--summary&#34;&gt;Thesis — Summary&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed a gradient-based shape optimisation framework combined with the multimesh finite element method, avoiding costly re-meshing of moving objects.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Derived a novel analytical shape gradient for the Stokes-drag problem using the adjoint approach and Hadamard’s theorem.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Validated the method numerically, demonstrating accurate gradients near extrema and competitive performance on relevant benchmarks.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;master-of-science--summary&#34;&gt;Master of Science — Summary&lt;/h3&gt;&#xA;&lt;p&gt;Specialization optimization and mathematical modeling&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Average grade: A&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;subjects&#34;&gt;Subjects&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimization&lt;/li&gt;&#xA;&lt;li&gt;ODEs &amp;amp; PDEs&lt;/li&gt;&#xA;&lt;li&gt;Mathematical Analysis, Linear Algebra, Calculus&lt;/li&gt;&#xA;&lt;li&gt;Physics: Optics, Classical Mechanics, Quantum Mechanics, Electromagnetism&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Research Intern</title>
+      <title>Technical Intern</title>
       <link>https://andreas.oslandsbotn.com/experience/neo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/neo/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;p&gt;As part of the hyperspectral imaging group at Norsk Elektro Optikk, I worked on improving image quality and signal robustness in their hyperspectral camera systems.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Designed and evaluated low-pass and band-limited filters to improve signal quality&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Used Fourier analysis to identify camera and sensor related issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Technical Intern</title>
       <link>https://andreas.oslandsbotn.com/experience/cern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/cern/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;p&gt;As part of the TE-MPE Department (Magnet Protection &amp;amp; Electrical Integrity), I contributed to experimental work supporting the HiLumi upgrade of the LHC.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and built an experiment to study proton-beam effects on superconducting magnets&lt;/li&gt;&#xA;&lt;li&gt;Planned the setup and produced CAD designs in collaboration with CERN’s mechanical workshop&lt;/li&gt;&#xA;&lt;li&gt;Assembled, executed, and analyzed the experiment, including PXI-based sensor data acquisition&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>PhD Candidate in Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/experience/simula/</link>
+      <link>https://andreas.oslandsbotn.com/experience/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/experience/simula/</guid>
-      <description></description>
+      <guid>https://andreas.oslandsbotn.com/experience/phd/</guid>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;p&gt;My PhD focused on developing scalable and reliable learning algorithms for large, high-dimensional datasets, with an emphasis on streaming and parallelization.&lt;/p&gt;&#xA;&lt;p&gt;Grounded in statistical learning theory, I designed learning methods that reformulate classical algorithms into multi-resolution and boosting-style frameworks, enabling efficient training and inference under realistic memory and compute limits. Key contributions include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;StreaMRAK: A multi-resolution, boosting-based learning framework supporting streaming data and adaptive model complexity&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Localized and hierarchical representation learning method for high-dimensional data, compatible with distributed and incremental computation&lt;/p&gt;</description>
     </item>
     <item>
       <title>Visiting Research Scholar</title>
       <link>https://andreas.oslandsbotn.com/experience/ucsd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreas.oslandsbotn.com/experience/ucsd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PhD - Computer Science</title>
-      <link>https://andreas.oslandsbotn.com/experience/phd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreas.oslandsbotn.com/experience/phd/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Supervisor: Prof. Alexander cloninger&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;As part of my PhD I completed a Research stay at UCSD working with Prof. Alexander Cloninger and Prof. Yoav Freund, the main focus was scalable representation learning for high-dimensional data.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed methods for low-dimensional representations that preserve local structure while remaining computationally scalable&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Developed a graph-based embedding approach that scales to large datasets through localization and parallelization, avoiding the quadratic complexity of classical spectral methods&lt;/p&gt;</description>
     </item>
     <item>
       <title>Machine Learning Engineer</title>
