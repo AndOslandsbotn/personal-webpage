@@ -37,6 +37,19 @@
         </div>
       </div>
 
+      <div class="exp-thesis">
+          <div class="exp-thesis-type">
+            {{ .Params.thesistype }}:
+          </div>
+          <a
+            class="exp-thesis-title"
+            target="_blank"
+            href="{{ .RelPermalink }}thesis/phdthesis_andreasoslandsbotn.pdf"
+          >
+            {{ .Params.thesistitle }}
+          </a>
+        </div>
+
       <div class="exp-content">
         {{ .Content }}
       </div>
