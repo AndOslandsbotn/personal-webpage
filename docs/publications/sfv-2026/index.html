@@ -66,15 +66,6 @@
             </a>
           </li>
         
-          <li>
-            <a
-              href="/blog/"
-              class=""
-            >
-              Blog
-            </a>
-          </li>
-        
       </ul>
     </div>
   </nav>
@@ -84,8 +75,31 @@
   
   <main class="content">
     
-  <p>This is a test</p>
+<article class="publication-page">
 
+  <div class="pub-meta">
+    <h2 class="pub-title">Structure from Voltage</h2>
+    <div class="pub-authors">
+      Yoav Freund, Andreas Oslandsbotn, Robi Bhattacharjee, Alexander Cloninger, Avighna Kukreja
+    </div>
+    <div class="pub-venue">
+      Submitted: Journal of Machine Learning Research, 2026
+    </div>
+  </div>
+
+  
+    <div class="pub-figure">
+      <img src="/publications/sfv-2026/SphereTheta90Phi180nlm7MDSemb.svg" alt="Figure from Structure from Voltage">
+    </div>
+  
+
+  <div class="pub-content">
+    <h2 id="abstract">Abstract</h2>
+<p>One of the major challenges in data science is the analysis of large point clouds in high dimensional metric spaces. Fortunately, many of these datasets are concentrated around low-dimensional manifolds. This, in principle, allows computation and reduced dimensionality that scales with the intrinsic, rather than the ambient dimension. The large and growing field of non-linear dimensionality reduction (NLDR) aims to develop algorithms that take advantage of low intrinsic dimension in datasets, both for visualization and for developing a low-dimensional coordinate system for downstream analysis. NLDR ranges from mathematically rigorous methods such as Laplacian Eigenmaps (Belkin and Niyogi, 2003, 2008) and Difusion maps (Coifman et al., 2005) that scale like $O(n^2)$ with n points, to methods such as t-SNE (Van der Maaten and Hinton, 2008) and UMAP (McInnes et al., 2018) that are much more efficient but have weak mathematical foundation and guarantees. In this paper, we propose a scalable NLDR strategy we call Localized Voltage Maps (LVM). Our method is based on the Laplacian framework but in a way thats easily parallelizable and scalable to large data sets. The augmentations come from using inhomogeneous, rather than homogeneous, solutions of the Laplacian, and by adding a special ground vertex to the graph thats an absorbing state for random walks. Our method also generates a hierarchical set of coordinates, where one can zoom-in on a subset of the data and compute a local coordinate system that best characterizes the data in that region, without having to recompute the embedding from scratch. We describe an implementation of this algorithm and demonstrate its effectiveness on MNIST and on the GloVe/wiki word-vector database.</p>
+
+  </div>
+
+</article>
 
   </main>
   

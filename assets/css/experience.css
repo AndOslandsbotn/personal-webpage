@@ -109,13 +109,24 @@
 .exp-title {
   font-size: 1.2em;
   font-weight: 500;
-  color: #444
+  color: #444;
 }
 
-.exp-thesis
-.exp-thesis a {
-  font-size: 10.9em;
-  font-weight: 200;
+.exp-thesis {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.exp-thesis-type {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #444;
+}
+
+.exp-thesis-title {
+  font-size: 0.9em;
+  font-weight: 400;
   color: #666;
 }
 

@@ -22,6 +22,12 @@
   background-color: #f0f0f0;
 }
 
+.page-section--footer {
+  background-color: #666;
+  color: #bdbdbd;
+  padding: 0.1em;
+}
+
 .page-container {
   max-width: 2000px;
   margin-inline: auto;
@@ -52,6 +58,19 @@
 .page-content {
   margin: 0;
   min-width: 0;  
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  color: #e0e0e0;
+
+  font-size: 0.5em;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 @media (min-width: 500px) {

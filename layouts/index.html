@@ -5,7 +5,7 @@
     {{ partial "hero.html" (dict "context" . "modifier" "hero--sidebar") }}
    
     <div class=page-content>
-      <section class=page-section--home id="home">
+      <section class="page-section page-section--home" id="home">
         <div class=section-container>
           <div class=bio-layout> 
           
@@ -24,7 +24,7 @@
         </div>
       </section>
 
-      <section class=page-section--publications id="publications">
+      <section class="page-section page-section--publications" id="publications">
         <div class="section-container">
           <div class=content-container>
             {{ partial "publications.html" }}
@@ -32,7 +32,7 @@
         </div>
       </section>
       
-      <section class=page-section--experience id="experience">
+      <section class="page-section page-section--experience" id="experience">
         <section class="section-container">
           <div class="content-container">
            {{ partial "experience.html" }}
@@ -40,12 +40,25 @@
         </section>
       </section>
 
-      <section class=page-section--contact id="contact">
+      <section class="page-section page-section--contact" id="contact">
         <section class="section-container">
           <div class="content-container">
             {{ partial "contact.html" }}
           </div>
         </section>
+      </section>
+      
+      <section class="page-section page-section--footer" id="footer">
+        <footer class="site-footer">
+          © {{ now.Year }} Andreas Oslandsbotn.
+          Content licensed under&nbsp;
+          <a 
+            href="https://creativecommons.org/licenses/by/4.0/"
+            rel="noopener"
+            target="_blank"
+          > CC BY 4.0</a>, unless otherwise noted.
+          
+        </footer>
       </section>
     </div>
   </section>
