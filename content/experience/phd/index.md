@@ -13,6 +13,7 @@ template: phd
 ---
 
 ### Summary
+_Supervisors: Prof. Alexander Cloninger, Dr. Zeljko Kereta & Dr. Nickolas Forsch_
 
 My PhD focused on developing scalable and reliable learning algorithms for large, high-dimensional datasets, with an emphasis on streaming and parallelization.
 
