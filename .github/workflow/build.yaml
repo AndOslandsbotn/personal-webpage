@@ -1,7 +1,7 @@
 name: Build Hugo site on PR
-run-name: ${{ .github.actor }} triggered run
+run-name: ${{ github.actor }} triggered run
 on:
-  pull_requests:
+  pull_request:
     branches: [main]
 jobs:
   build:
