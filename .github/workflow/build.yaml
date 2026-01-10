@@ -1,0 +1,16 @@
+name: Build Hugo site on staging branch
+run-name: ${{ .github.actor }} triggered run
+on:
+  pull-requests:
+    branches: [main]
+jobs:
+  build:
+    run-ons: ubuntu-22.04
+    steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.119.0'
+  
+      - name: Build site
+        run: hugo --minify
