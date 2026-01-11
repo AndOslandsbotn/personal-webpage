@@ -16,7 +16,7 @@ jobs:
           hugo-version: '0.119.0'
 
       - name: Build site
-        run: hugo --minify --test-branch-protection
+        run: hugo --minify
       
       - name: Add artifact
         uses: actions/upload-artifact@v4
