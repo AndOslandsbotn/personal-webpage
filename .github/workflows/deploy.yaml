@@ -4,8 +4,7 @@ on:
     branches: [main]
 jobs:
   build:
-    - name: Build
-      uses: ./.github/workflows/hugo-build.yaml
+    uses: ./.github/workflows/hugo-build.yaml
    
   deploy:
     needs: build
