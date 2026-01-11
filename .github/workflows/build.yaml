@@ -16,3 +16,7 @@ jobs:
   
       - name: Build site
         run: hugo --minify
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-site
+          path: docs
