@@ -1,0 +1,8 @@
+name: Build on PR
+run-name: ${{ github.actor }} triggered run
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    uses: ./.github/workflows/hugo-build.yaml
