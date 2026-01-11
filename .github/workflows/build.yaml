@@ -12,11 +12,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.119.0'
-  
-      - name: Build site
-        run: hugo --minify
+          hugo-version: '0.119.0' 
+      - name: Add artifact 
         uses: actions/upload-artifact@v4
         with:
           name: hugo-site
           path: docs
+      - name: Build site
+        run: hugo --minify
