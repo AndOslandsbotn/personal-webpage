@@ -1,10 +1,10 @@
-name: Build on PR
+name: Build site with hugo
 run-name: ${{ github.actor }} triggered run
 on:
   workflow_call:
 
 jobs:
-  build:
+  hugo-build:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repo
