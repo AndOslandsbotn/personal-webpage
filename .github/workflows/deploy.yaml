@@ -1,0 +1,29 @@
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    - name: Build
+      uses: ./.github/workflows/hugo-build.yaml
+   
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: docs
+
+      - name: Upload artifact to GitHub pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub pages
+        id: deployment
+        uses: actions/deploy-pages@v4
